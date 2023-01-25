@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <h1 style="text-align: center;">IMC Calculator</h1>
+    <script>
+        function breakLine() {
+            document.write("<br>");
+        }
+        function showMessage(msg) {
+            document.write(`<h2>${msg}</h2>`);
+            breakLine();
+        }
+
+        function imcCalculator(name, weigth, heigth) {
+            let imc = weigth / (heigth * heigth);
+            showMessage(`${name} IMC is : ${Math.round(imc)}`);
+        }
+
+        imcCalculator("João", 80, 1.76);
+        imcCalculator("Pedro", 90, 1.80);
+
+    </script>
+</body>
+</html>
