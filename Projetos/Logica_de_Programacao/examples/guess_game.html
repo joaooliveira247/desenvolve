@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Guess Game</h1>
+    <script>
+        function showMessage(msg) {
+            document.write(`<h2 style="text-align: center;">${msg}</h2>`);
+        }
+        function guessGame(num) {
+            let random = Math.round(Math.random() * 10);
+            console.log(random)
+            if (num == random) {
+                return "You gessed";
+            } else {
+                return "Opssss, trry again.";
+            }
+        }
+        function userInteraction() {
+            let num = parseInt(prompt("Type a number."));
+            showMessage(guessGame(num));
+        }
+        userInteraction();
+    </script>
+</body>
+</html>
