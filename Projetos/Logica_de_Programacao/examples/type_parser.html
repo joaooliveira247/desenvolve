@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Score</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Team Score</h1>
+    <script>
+        function lineBreak() {
+            document.write("<br>");
+        }
+
+        function showMessage(msg) {
+            document.write(`<h2 style="text-align: center;">${msg}</h2>`);
+        }
+
+        function timeScore(win, even) {
+            return win * 3 + even;
+        }
+
+        function userInteraction() {
+            let win = parseInt(prompt("number of wins"));
+            let even = parseInt(prompt("number of even"));
+            showMessage(timeScore(win, even));
+        }
+        userInteraction();
+    </script>
+</body>
+</html>
