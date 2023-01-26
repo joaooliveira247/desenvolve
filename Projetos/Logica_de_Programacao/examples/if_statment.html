@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Score</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Time Score</h1>
+    <script>
+        function showMessage(msg) {
+            document.write(`<h2 style="text-align: center;">${msg}</h2>`);
+        }
+
+        function timeScore(win, even) {
+            return win * 3 + even;
+        }
+
+        function scoreClass(last, win, even) {
+            let score = timeScore(win, even);
+            if (last < score) {
+                return "Nicee, Your team improved."
+            }
+            if (last == score) {
+                return "OK, It looks good."
+            }
+            if (last > score) {
+                return "Oh no, your team don't look good."
+            }
+        }
+
+        function userInteraction() {
+            let last = parseInt(prompt("Last year score."));
+            let win = parseInt(prompt("number of wins"));
+            let even = parseInt(prompt("number of even"));
+            showMessage(scoreClass(last, win, even));
+        }
+        userInteraction();
+    </script>
+</body>
+</html>
