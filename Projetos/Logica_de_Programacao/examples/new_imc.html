@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <h1 style="text-align: center;">IMC Calculator</h1>
+    <script>
+        function showMessage(msg) {
+            document.write(`<h2 style="text-align: center;">${msg}</h2>`);
+        }
+        function imcCalc(weigth, heigth) {
+            return weigth / (heigth * heigth);
+        }
+        function imcClass(imc, name) {
+            if (imc > 35) {
+                return `${name} imc's look a little high. [${imc}]`;
+            }
+            if (imc < 18.5) {
+                return `${name} imc's look a little low. [${imc}]`;
+            }
+            if (imc >= 18.5 && imc <= 35) {
+                return `${name} imc's look good. [${imc}]`;
+            }
+        }
+
+        function userInteraction() {
+            let weigth = parseInt(prompt("Type your weigth."));
+            let heigth = parseInt(prompt("Type your heigth."));
+            let name = prompt("Type your name.");
+            showMessage(imcClass(imcCalc(weigth, heigth), name));
+        }
+
+        userInteraction();
+    </script>
+</body>
+</html>
