@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess game</title>
+</head>
+<body>
+    <div>
+        <h1>Guess Game</h1>
+        <input name="input">
+        <button name="try">Try it !</button>
+    </div>
+    <script>
+        function showMessage(msg) {
+            alert(msg);
+        }
+        function guessGames(guess) {
+            let num = Math.round(Math.random() * 10);
+            if (guess == num) {
+                showMessage("You win");
+            } else {
+                showMessage("Try again");
+            }
+        }
+        function userInteraction() {
+            let input = parseInt(
+                document.querySelector("div input[name='input']").value
+                );
+            guessGames(input);
+        }
+        let button = document.querySelector("div button[name='try']");
+        button.onclick = userInteraction;
+    </script>
+</body>
+</html>
