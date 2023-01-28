@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mean family</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Mean ages of a family</h1>
+    <script>
+        function showMessage(msg) {
+            document.write(
+                `<h2 style="text-align: center;">${msg}</h2>`
+                );
+        }
+
+        function meanAges(sumAges, nPeople) {
+            return sumAges / nPeople;
+        }
+
+        function userInteractio() {
+            let nPeople = parseInt(
+                prompt("Type number of people in your family")
+                );
+            let sumAges = 0
+            for (i = 0; i < nPeople; i++) {
+                 sumAges += parseInt(prompt(`Type ${i + 1} age.`));
+            }
+            console.log(sumAges)
+            showMessage(`${meanAges(sumAges, nPeople)}`);
+        }
+        userInteractio();
+    </script>
+</body>
+</html>
