@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Multiplication Table</h1>
+    <ol>
+        <script>
+            function showMessage(msg) {
+                document.write(msg);
+            }
+            function multiplicationTable(num) {
+                for (mult = 1; mult <= 10; mult++) {
+                    showMessage(`<li>${num} X ${mult} = ${num * mult}</li>`);
+                }
+            }
+            function userInteraction() {
+                let num = parseInt(
+                        prompt("Type the number to create a table")
+                    );
+                multiplicationTable(num);
+            }
+            userInteraction();
+        </script>
+    </ol>
+</body>
+</html>
