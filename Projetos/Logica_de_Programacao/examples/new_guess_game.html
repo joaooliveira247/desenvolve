@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Guess Game</h1>
+    <script>
+        function showMessage(msg) {
+            document.write(
+                `<h2 style="text-align: center;">${msg}</h2>`
+            )
+        }
+
+        function guessGame(chances) {
+            let count = 0
+            let number = Math.round(Math.random() * 10)
+            console.log(number)
+            while (count < chances) {
+                let guess = parseInt(
+                    prompt("Type a number between 0 and 10.")
+                    );
+                    count++;
+                if (isNaN(guess)) {
+                    showMessage("This not is a number.");
+                    continue;
+                }
+                if (guess == number) {
+                    showMessage("Niceeeee, you win.");
+                    break;
+                } else {
+                    showMessage(`${guess} not match, try again.`);
+                }
+            }
+        }
+
+        function userInteraction() {
+            let chances = parseInt(prompt("Type number of chances."));
+            if (isNaN(chances)) {
+                showMessage("This not is a number.");
+            } else {
+                guessGame(chances);
+            }
+        }
+
+        userInteraction();
+        
+    </script>
+</body>
+</html>
