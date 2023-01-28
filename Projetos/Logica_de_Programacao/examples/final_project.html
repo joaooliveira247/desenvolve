@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Guess Game</title>
+</head>
+<body>
+    <h1>Last Guess Game</h1>
+    <div>
+        <input type="text" name="input">
+        <button name="button">Try it!</button>
+        <script>
+            function getRandomNum() {
+                let num = Math.round(Math.random() * 10);
+                if (num != 0) {
+                    return num;
+                }
+            }
+
+            function getListRandom() {
+                let listRandom = [];
+                for(i = 0; i < 3; i++){
+                    let rNum = getRandomNum();
+                    if (rNum in listRandom) {
+                    }else {
+                        listRandom.push(rNum);
+                    }
+                }
+                return listRandom;
+            }
+            function findValue(arr, value) {
+                for (i = 0; i < arr.length; i++) {
+                    if (arr[i] == value) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            function guessGame() {
+                let listRandom = getListRandom();
+                console.log(listRandom);
+                let num = document.querySelector("div input[name='input']");
+                if (findValue(listRandom, parseInt(num.value))) {
+                    alert("You guess.");
+                }else {
+                    alert("You don't guess.");
+                }
+            }
+
+            let input = document.querySelector("div input[name='input']");
+            let button = document.querySelector("div button[name='button']");
+            button.onclick = guessGame;
+        </script>
+    </div>
+</body>
+</html>
