@@ -16,4 +16,4 @@ Traduzido para o português, Linguagem de Marcação de HiperTexto ou [HTML](htt
 
 - [🔖 Anatomia de uma tag](./anatomy.md)
 - [💀 Estrutura Básica](./basic.md)
-- [🔖 Tag de Texto](./tags.md)
+- [🔖 Tag de Texto](./text_tags.md)
