@@ -1,6 +1,6 @@
 # 👋 Hello world!
 
-Bom agora que nosso ambiente está preparado, iremos fazer o ponta-pé inicial de toda linguagem que é mostrar na tela a mensagem `Olá mundo!` ou `Hello world!`.
+Bom agora que nosso ambiente está preparado, iremos fazer o pontapé inicial de toda linguagem que é mostrar na tela a mensagem `Olá mundo!` ou `Hello world!`.
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="25px"/> No console interativo do python:
 
