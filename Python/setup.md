@@ -29,7 +29,7 @@ python3 --version
   <img src="./assets/images/setup/python_version2.png">
 </details>
 
-Para instala-lo pasta executar os seguintes comandos.
+Para instala-lo basta executar os seguintes comandos.
 
 ```bash
 sudo apt install python3
@@ -133,3 +133,24 @@ Nos links abaixo você poderá executar seus codigos python sem a necessidade de
 ### <img src="https://blog.replit.com/images/logo.svg" width="15px"> [Replit](https://replit.com/)
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="15px"> [Jupyter](https://jupyter.org/)
+
+---
+
+## 🗒️ Editores de texto
+
+Aconselho o uso de um editor de texto para escrever seus códigos python.
+
+> **__Nota:__**
+>
+> Todo arquivo python vai terminar com `.py`
+>
+> Caso veja algum arquivo `.ipynb` é do jupyter notebook que roda python por trás dos panos.
+>
+> ex: `hello_world.py`
+
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="15px"> [VSCode](https://code.visualstudio.com/)
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="15px"> [PyCharm](https://www.jetbrains.com/pt-br/pycharm/)
+
+<img src="https://www.sublimehq.com/images/sublime_text.png" width="15px"> [Sublime](https://www.sublimetext.com/)
