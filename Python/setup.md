@@ -55,6 +55,7 @@ e começar uma instalação padrão no windows.
 > Observação:
 >
 > Lembre-se de marcar essa caixinha, caso contrario quando você tentar executar o comando `python --version` ou `python3 --version` no prompt ele não irá funcionar.
+>
 > ![python_windows](./assets/images/setup/python_windows.png)
 
 Por fim execute o comando abaixo, para verificar se tudo foi instalado corretamente.
