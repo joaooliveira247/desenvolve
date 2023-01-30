@@ -10,4 +10,7 @@ Python é uma linguagem de propósito geral de alto nível, **multiparadigma**, 
 
 - 1 - [🖥️ Ambiente de desenvolvimento](./setup.md)
 
+- 2 - 🏠 Básico
+
+    - 2.1 - [👋 Hello world](./basic/hello_world.md) 
           
