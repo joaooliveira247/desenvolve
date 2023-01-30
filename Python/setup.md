@@ -132,4 +132,4 @@ Nos links abaixo você poderá executar seus codigos python sem a necessidade de
 
 ### <img src="https://blog.replit.com/images/logo.svg" width="15px"> [Replit](https://replit.com/)
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="15px"> [Jupyter]()
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="15px"> [Jupyter](https://jupyter.org/)
