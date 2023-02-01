@@ -17,4 +17,20 @@ Python é uma linguagem de propósito geral de alto nível, **multiparadigma**, 
     - 2.2 - [📦 Variáveis](./basic/variables.md)
 
     - 2.3 - [➕ Operadores](./basic/operatos.md)
+
+- 3 - [🗃️ Tipos de dados](./types/data_types.md)
+    
+    - 3.1 - [Tipos numéricos](./types/numerics.md)
+
+    - 3.2 - [Sequências]()
+
+    - 3.3 - [Conjuntos]()
+
+    - 3.4 - [Mapeamento]()
+
+    - 3.5 - [Booleano]()
+
+    - 3.6 - [NoneType]()
+
+    - 3.7 - [Outros]()
           
