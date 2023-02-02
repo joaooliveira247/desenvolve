@@ -6,7 +6,17 @@ def jogo():
     enforcou = False
     acertou = False
 
-    while not enforcou and not acertou:
+    while (not enforcou and not acertou):
+
+        chute = input("Qual letra ?\n")
+
+        index = 0
+
+        for letra in palavra_secreta:
+            if chute == letra:
+                print(f"Letra {letra} encontrada na posição {index}")
+            index += 1
+
         print("Jogando ...")
 
     print("Fim do Jogo")
