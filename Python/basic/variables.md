@@ -4,7 +4,7 @@ Na programação, uma variável é um objeto (uma posição, frequentemente loca
 
 - variável é um item de dados nomeado cujo valor pode ser alterado durante a execução do programa.
 
-Nos casos a seguir ireia usar o modo interativo, mas não o padrão do python, irei usar o [Ipython](https://ipython.org/).
+Nos casos a seguir irei usar o modo interativo, mas não o padrão do python, irei usar o [Ipython](https://ipython.org/).
 
 ---
 
@@ -142,3 +142,21 @@ Para nomeação de constantes usamos o padrão `SCREAMING SNAKE CASE`
 BASE_URL = "https://google.com"
 ```
 
+## 🚷 - Palavras reservadas
+
+É recomendado não usar algumas palavras como nome de variável, pois o python as usa para fazer algum dentro da propria linguagem, são elas:
+
+|and|as|assert|async|
+|:---:|:---:|:---:|:---:|
+|await|break|case|class|continue|
+|def|del|elif|else|except|False|
+|if|import|in|is|lambda|
+|match|None|nonlocal|not|or|
+|pass|raise|return|True|try|
+|while|with|yield|||
+
+```python
+is = False #Não recomendado
+
+is_even = True #Recomendado
+```
