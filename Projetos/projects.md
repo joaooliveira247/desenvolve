@@ -8,3 +8,7 @@ Aqui ficaram alguns projetos e exemplos feitos durante todo o programa.
 
 - [Python](./Python/)
 
+- Banco de dados
+
+    - [Modelagem de dados](./banco_de_dados/modelagem_de_dados/)
+
