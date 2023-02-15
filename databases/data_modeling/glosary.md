@@ -155,3 +155,66 @@ n entidades se relacionam entre si.
 A Tabela intermediária de relacionamentos N para N é a tabela gerada no mapeamento conceitual-lógico de cardinalidades N para N. Todo relacionamento N:N gera uma tabela no mapeamento.
 
 A Entidade Associativa é quando o relacionamento com cardinalidade N:N entre duas entidades precisa se relacionar com uma terceira entidade. Nesses casos, esse relacionamento precisaria estar conectado a alguma representação gráfica (ou a uma entidade ou a um relacionamento). Caso seja nas entidades, os vínculos são perdidos e caso seja no relacionamento, a modelagem estaria errada pois não é possível que dois relacionamentos estejam conectados entre si. Para isso, é feito o retângulo em volta do relacionamento. Vejamos um exemplo:
+
+## ⚪ Atributos
+
+Os atributos descrevem as propriedades das entidades. A entidade pessoa pode ter como atributo o nome, data de nascimento, idade, endereço. Como as entidades, também existem alguns tipos de atributos, que são: os atributos simples, atributos compostos, atributos multivalorados, atributos derivados e atributos chave. Agora veremos cada um deles:
+
+![attr](./assets/images/attr.png)
+
+### Tipos de atributos:
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo simples
+  </summary>
+
+  Atributos simples são indivisíveis, ou seja, são atributos atômicos, um exemplo seria o atributo `CPF`, ele não pode ser dividido em partes menores para formar outros atributos, ele é indivisível.
+
+
+</details>
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo composto
+  </summary>
+
+  Atributos Compostos podem ser divididos em partes menores, que representam outros atributos, como o atributo endereço, ele pode ser subdividido em atributos menores, como, por exemplo, `cidade`, `estado`, `rua`, `CEP`.
+
+</details>
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo multivalorado
+  </summary>
+
+  Um atributo Multivalorado pode ter um ou N (vários) valores associados a ele, como, por exemplo, o atributo telefone de um cliente, ele pode ter um ou vários telefones.
+
+</details>
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo derivado
+  </summary>
+
+  Atributos derivados dependem de outro atributo ou até mesmo outra entidade para existir, como, por exemplo, o atributo idade e o atributo data de nascimento, para descobrimos a idade de uma pessoa precisamos da sua data de nascimento, então, consideramos o atributo idade como derivado do atributo data de nascimento.
+
+</details>
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo chave
+  </summary>
+
+  O atributo chave é utilizado para identificar de forma única uma entidade, ou seja, os valores associados a esse atributo são distintos dentre o conjunto de entidades. Como exemplo, podemos utilizar o `CPF` de uma pessoa, ele é único e pode ser utilizado como atributo chave, já que cada pessoa recebe um número de `CPF` distinto.
+
+</details>
+
+<details>
+  <summary style="font-size: 20px;">
+    Atributo de especialidade
+  </summary>
+
+![esp_attr](./assets/images/esp_atribute.png)
+
+</details>
