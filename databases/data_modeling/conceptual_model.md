@@ -1,4 +1,4 @@
-# 📖 Glosário
+# 📖 Modelo conceitual
 
 ## ⬜ Entidades:
 

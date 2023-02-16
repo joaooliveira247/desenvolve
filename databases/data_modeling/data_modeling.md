@@ -39,7 +39,11 @@ Ou seja, enquanto o MER  mostra os relacionamentos de conjuntos de entidades arm
 
 - O diagrama
 
-## [📖 Glósario](./glosary.md)
+## [📖 Modelo Conceitual](./conceptual_model.md)
+
+## [🤔 Modelo Lógico](./logic_model.md)
+
+## [🚧 Modelo Fisico](./physical_model.md)
 
 ## Leituras complementares.
 
