@@ -1,4 +1,4 @@
-# Modelagem de Dados.
+# <img src="https://cdn-icons-png.flaticon.com/512/5230/5230749.png" width="25px"> Modelagem de Dados.
 
 A **__modelagem de dados__** é um dos processos mais importantes ao se trabalhar em um projeto de banco de dados. Nele, os dados são levantados, tratados e estruturados para, assim, termos uma boa base para a construção de um banco de dados.
 
@@ -44,6 +44,8 @@ Ou seja, enquanto o MER  mostra os relacionamentos de conjuntos de entidades arm
 ## [🤔 Modelo Lógico](./logic_model.md)
 
 ## [🚧 Modelo Fisico](./physical_model.md)
+
+## [🖼️ Normalização](./normalization.md)
 
 ## Leituras complementares.
 
