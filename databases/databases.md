@@ -9,7 +9,7 @@ Bancos de dados são conjuntos de arquivos relacionados entre si, com registros 
 
 - [<img src="https://cdn-icons-png.flaticon.com/512/657/657695.png" width="15px"> SQL](./SQL/sql.md)
 
-- [<img src="https://wiki.postgresql.org/images/9/9a/PostgreSQL_logo.3colors.540x557.png" width="15px"> PostgreSQL]()
+- [<img src="https://wiki.postgresql.org/images/9/9a/PostgreSQL_logo.3colors.540x557.png" width="15px"> PostgreSQL](./Postgre/postgre.md)
 
 ## <code style="color: green;">NoSQL</code> - Banco de dados <span style="color: green;">não só relacional</span>
 
