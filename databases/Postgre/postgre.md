@@ -8,13 +8,15 @@
 
 > **Atenção**
 >
-> `Postgre` suporta scripts `SQL`, mas tem também uma interface de linha de comando chamada [plsql](https://www.postgresql.org/docs/current/app-psql.html).
+> `Postgre` suporta scripts `SQL`, mas tem também uma interface de linha de comando chamada [psql](https://www.postgresql.org/docs/current/app-psql.html).
 >
 
 
 ## [🏗️ `DDL` - Data Definition Language](./ddl.md)
 
 ## [🪛 `DML` - Data Manipulation Language](./dml.md)
+
+## [📜 `PL/pgSQL` - Procedural Language](./pl.md)
 
 ---
 
@@ -24,16 +26,16 @@ O postgres possui uma ferramenta gráfica o [PgAdmin](https://www.pgadmin.org/)
 
 - Conexão feita usando plsql.
 
-`plsql <database_name> -U`
+`psql <database_name> -U`
 
 No meu caso como usei um container a conexão ficou assim.
 
-`plsql -h <ip> -p <porta> -U <user> <database_name>`
+`psql -h <ip> -p <porta> -U <user> <database_name>`
 
 <details>
   <summary>Exemplo</summary>
 
-`plsql -h localhost -p 5432 user school`
+`psql -h localhost -p 5432 user school`
 
 </details>
 
