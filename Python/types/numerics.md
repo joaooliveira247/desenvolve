@@ -4,7 +4,7 @@ Existem três tipos numéricos distintos: inteiros, números de ponto flutuante 
 
 Python suporta completamente aritmética mista: quando um operador de aritmética binária tem operandos de tipos numéricos diferentes, o operando com o tipo “mais estreito” é ampliado para o tipo do outro operando, onde um inteiro é mais estreito do que um ponto flutuante, que por sua vez é mais estreito que um número complexo.
 
-**__Todos os tipos númericos são <span style="color: red;">Imutaveis</span>__**
+> **__Todos os tipos númericos são <span style="color: red;">Imutaveis</span>__**
 
 ---
 
@@ -75,7 +75,7 @@ complex_3 = 7j
 
 ---
 
-## Operadores
+## 🪛 Operadores
 
 |Operação|Resultado|
 |:---:|:---:|
