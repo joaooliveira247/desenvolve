@@ -28,13 +28,15 @@ Os tipos abordados a seguir já vem por padrão na linguagem, tipos que são nec
 
     - (`complex`) Complexo
 
-- 3.2 - [Sequências]()
-
-    - (`str`) String
+- 3.2 - [Sequências](./sequences.md)
 
     - (`list`) Lista
 
     - (`tuple`) Tupla
+
+    - (`range`) Intervalo
+
+    - [(`str`) String]()
 
 - 3.3 - [Conjuntos]()
 
@@ -61,3 +63,5 @@ Os tipos abordados a seguir já vem por padrão na linguagem, tipos que são nec
     - (`Queue`)
 
     - (`Named Tuple`)
+
+    - (`Frozen Set`)
