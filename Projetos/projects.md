@@ -12,3 +12,6 @@ Aqui ficaram alguns projetos e exemplos feitos durante todo o programa.
 
     - [Modelagem de dados](./banco_de_dados/modelagem_de_dados/)
 
+# 🏆 Desafios
+
+[Desafio 1](./challenges/challenge_01/README.md)
